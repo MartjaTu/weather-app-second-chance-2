@@ -9,6 +9,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="styles.css" />
     <title>Weather app second chance</title>
   </head>
@@ -29,13 +31,11 @@
               <input type="submit" value="Search" class="btn btn-light" />
             </div>
           </div>
-          <h1 id="city">
-            Ericeira
-          </h1>
+          <h1 id="city"></h1>
           <h2>
             <div class="row">
-              <div class="col-6" class="float-left">
-                <span class="temperature">16</span>
+              <div class="col-6">
+                <strong id="temperature"></strong>
                 °C | <a href="#">°F</a>
               </div>
               <div class="col-6">
@@ -46,16 +46,9 @@
           <div class="row">
             <div class="col-6">
               <ul>
-                <li>
-                  <span id="date">Monday 16:00</span>
-                </li>
-
-                <li>
-                  <span id="humidity">Humidity is 66%</span>
-                </li>
-                <li>
-                  <span id="wind">Wind is 24 km/h</span>
-                </li>
+                <li><span id="date">Monday 16:00</span></li>
+                <li>Humidity is <span id="humidity">66</span>%</li>
+                <li>Wind is <span id="wind">24</span> km/h</li>
               </ul>
             </div>
             <div class="col-6"></div>

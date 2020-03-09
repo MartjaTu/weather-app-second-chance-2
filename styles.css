@@ -42,7 +42,7 @@ small {
   margin: 0 auto;
 }
 
-.temperature {
+#temperature {
   font-size: 82px;
   font-weight: 400;
   line-height: 1;
