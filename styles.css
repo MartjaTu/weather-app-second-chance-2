@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5b6276;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+small {
+  margin: 15px;
+  padding: 5px;
+}
+.weather-app {
+  border: solid 3px #e9ebee;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.row {
+  margin: 0 auto;
+}
+.temperature {
+  font-size: 100px;
+}
