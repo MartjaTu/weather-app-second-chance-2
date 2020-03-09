@@ -16,43 +16,49 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <h1>
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type your city..."
+                class="form-control"
+                id="city-input"
+              />
+            </div>
+            <div class="col-3">
+              <input type="submit" value="Search" class="btn btn-light" />
+            </div>
+          </div>
+          <h1 id="city">
             Ericeira
           </h1>
-
           <h2>
             <div class="row">
-              <div class="col-2"></div>
-              <div class="col-8">
+              <div class="col-6" class="float-left">
                 <span class="temperature">16</span>
                 °C | <a href="#">°F</a>
               </div>
-              <div class="col-2"></div>
+              <div class="col-6">
+                <img src="" alt=" Clear" id="icon" class="float-left" />
+              </div>
             </div>
           </h2>
           <div class="row">
             <div class="col-6">
               <ul>
                 <li>
-                  Monday 16:00
-                </li>
-                <li>
-                  <img src="" alt="Clear" id="icon" class="float-left" />
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-6">
-              <ul>
-                <li>
-                  Humidity is 66%
+                  <span id="date">Monday 16:00</span>
                 </li>
 
                 <li>
-                  Wind is 24 km/h
+                  <span id="humidity">Humidity is 66%</span>
+                </li>
+                <li>
+                  <span id="wind">Wind is 24 km/h</span>
                 </li>
               </ul>
             </div>
+            <div class="col-6"></div>
           </div>
 
           <div class="row">
@@ -94,11 +100,15 @@
             </div>
           </div>
         </div>
+        <small>
+          <a
+            href="https://github.com/MartjaTu/weather-app-second-chance-2"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Martja Tu 2020
+        </small>
       </div>
-      <small>
-        <a href="#" target="_blank">Open-source code</a>
-        by Martja Tu 2020
-      </small>
     </div>
 
     <script src="index.js"></script>

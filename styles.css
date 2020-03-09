@@ -4,35 +4,54 @@ body {
 }
 
 h1 {
-  text-align: center;
-  font-size: 60px;
+  font-size: 48px;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 h2 {
-  text-align: center;
   font-size: 30px;
-  margin: 0 auto;
+  margin-left: 10px;
+  line-height: 1;
+}
+
+ul {
+  padding-left: 10px;
 }
 
 li {
   list-style: none;
+  line-height: 20px;
 }
 
 small {
-  margin: 15px;
   padding: 5px;
 }
-.weather-app {
-  border: solid 3px #e9ebee;
-  border-radius: 10px;
+
+.weather-app-wrapper {
   max-width: 600px;
-  margin: 20px;
+  margin: 20px auto;
+}
+.weather-app {
+  border: solid 1px #e9ebee;
+  border-radius: 10px;
   padding: 20px;
 }
 
 .row {
   margin: 0 auto;
 }
+
 .temperature {
-  font-size: 100px;
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.form-control {
+}
+
+.btn {
+  border: solid 1px #e9ebee;
+  color: #5b6276;
 }
