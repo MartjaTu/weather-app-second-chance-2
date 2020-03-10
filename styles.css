@@ -27,6 +27,9 @@ li {
 small {
   padding: 5px;
 }
+#description {
+  line-height: 20px;
+}
 
 .weather-app-wrapper {
   max-width: 600px;
@@ -40,6 +43,10 @@ small {
 
 .row {
   margin: 0 auto;
+}
+
+.col-6:first-letter {
+  text-transform: capitalize;
 }
 
 #temperature {
